@@ -7,9 +7,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prebuild": "hookdeck-vercel deploy"
   },
   "dependencies": {
+    "@hookdeck/vercel": "^0.2.0",
     "@t3-oss/env-nextjs": "^0.10.1",
     "next": "^14.2.1",
     "react": "18.2.0",
